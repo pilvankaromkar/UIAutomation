@@ -1,5 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="UI Automation Suite">
+    <parameter name="env" value="UAT"/>
     <test name="Login Tests">
         <classes>
             <class name="LoginTest"/>
